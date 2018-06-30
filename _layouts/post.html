@@ -2,7 +2,7 @@
 layout: default
 current: post
 class: post-template
-disqus: false
+disqus: true
 ---
 
 <!-- default -->
@@ -33,7 +33,7 @@ into the {body} of the default.hbs template -->
                             {% if forloop.index == page.tags.size %}
                                <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>
                             {% else %}
-                               <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>,
+                               <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }} </a>,
                             {% endif %}
                         {% endfor %}
                     {% endif %}
@@ -96,7 +96,7 @@ into the {body} of the default.hbs template -->
                     <script>
                         var disqus_config = function () {
                             this.page.url = '{{ site.url }}{{ site.baseurl }}';
-                            this.page.identifier = '{{ site.title }}';
+                            this.page.identifier = 'qwertycvb blog';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');

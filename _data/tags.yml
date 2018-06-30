@@ -1,16 +1,12 @@
-speeches:
-  name: speeches
-  description: Some of the greatest words ever spoken.
-  cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
-  description: False
-  cover: False
-fables:
-  name: fables
-  description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
-getting-started:
-  name: getting-started
-  description: False
-  cover: False
+chatbot:
+  name: chatbot
+  description: 다양한 플랫폼의 챗봇에 대해 다룹니다.
+  cover: assets/images/chatbot.png
+kernel:
+  name: kernel
+  description: Linux Kernel에 대해 다룹니다.
+  cover: false
+other:
+  name: other
+  description: 사소한 잡담들입니다.
+  cover: false

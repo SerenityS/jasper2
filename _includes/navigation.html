@@ -1,6 +1,9 @@
 <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="{{site.baseurl}}">Home</a></li>
-    <li class="nav-about" role="menuitem"><a href="{{site.baseurl}}about/">About</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href="{{site.baseurl}}tag/getting-started/">Getting Started</a></li>
-    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
+    {% if page.current == 'home' %}
+    <li class="nav-about" role="menuitem"><a href="{{site.baseurl}}about/">About Me</a></li>
+    {% endif %}
+    <li class="nav-chatbot" role="menuitem"><a href="{{site.baseurl}}tag/chatbot">Chatbot</a></li>
+    <li class="nav-kernel" role="menuitem"><a href="{{site.baseurl}}tag/kernel">Kernel</a></li>
+    <li class="nav-other" role="menuitem"><a href="{{site.baseurl}}tag/other">Other</a></li>
 </ul>

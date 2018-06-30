@@ -24,6 +24,7 @@ navigation: True # show the navbar links
 # by editing `_includes/subscribe-form.html`
 #twitter: tryghost # replace by your username
 #facebook: ghost # replace by your username
+github: SerenityS
 
 # Disqus
 disqus: True

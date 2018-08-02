@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
-User-agent: *
 Disallow: /assets/
+Disallow: /about/
+Disallow: /tag/
 
 Sitemap: https://serenitys.github.io/sitemap.xml

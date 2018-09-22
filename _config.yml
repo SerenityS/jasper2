@@ -9,12 +9,12 @@ baseurl: /
 
 # Website info
 title: qwertycvb's Blog
-description: Chatbot & Linux Kernel
+description: Chatbot
 cover: assets/images/blog-cover.jpg
 #logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://serenitys.github.io/
+production_url: https://blog.qwertycvb.com/
 source_url: https://github.com/serenitys/jasper2/
 
 # Social info
@@ -72,7 +72,7 @@ repo: jasper2
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  https://serenitys.github.io/
+production_url:  https://blog.qwertycvb.com/
 source_url:  https://github.com/serenitys/
 
 exclude:
